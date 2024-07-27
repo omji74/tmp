@@ -1,0 +1,125 @@
+body{
+    /* background-color: aqua; */
+    border: 5px solid white;
+}
+.navbar-nav .nav-item {
+    margin-right: 5rem; 
+    margin-bottom: auto;
+  }
+ 
+  
+.navbar-nav  {
+    list-style-type: none;
+  }
+  
+  
+.navbar {
+    background-color: #f8f9fa; 
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .nav-link {
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    color: #007bff; 
+  }
+  
+  .form-inline {
+    float: right;
+  }
+  .form-inline .form-control {
+    margin-right: 1rem;
+  }
+  .navbar-brand{
+    color: rgb(60, 124, 103);
+  }
+  @media only screen and (min-width: 640px) and (max-width: 768px) {
+    .carousel .item {
+  height: 400px;
+}
+
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 400px;
+}
+  }
+.roller{
+	z-index: -1;
+	display: flex;
+	margin: 0px;
+	padding: 0px;
+
+	width: 100%;
+	height: 450px;
+	background: #222;
+}
+.swiper{
+	z-index: -1;
+	width: 100%;
+	height:450px ;
+}
+.swiper-slide img{
+	z-index: -1;
+	width: 100%;
+	height: 450px;
+
+}
+#our-vision1{
+  background-color: #f7f7f7;
+  padding: 50px 0;
+  text-align: center;
+}
+#our-vision1 img{
+	margin-bottom: 20px;
+}
+#our-vision1 p {
+  font-size: 25px;
+  color: #666;
+}
+
+h1{
+	font-size: 50px;
+	text-align: center;
+	text-shadow: gray;
+	border-bottom: darkblue;
+}
+#our-vision {
+  background-color: #f7f7f7;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#our-vision p {
+  font-size: 25px;
+  color: #666;
+}
+.heading{
+    text-align: left;
+}
+.new{
+    border: 1px solid rgb(11, 11, 11);
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .card-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+   
+  }
+  
+#more {display: none;}
